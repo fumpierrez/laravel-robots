@@ -1,5 +1,5 @@
 {
-    "name": "mad-web/laravel-robots",
+    "name": "fumpierreaz/laravel-robots",
     "description": "Robots.txt generator service.",
     "type": "library",
     "keywords": [
