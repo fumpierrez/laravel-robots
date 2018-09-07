@@ -1,6 +1,6 @@
 {
     "name": "fumpierrez/laravel-robots",
-    "description": "Robots.txt generator service.",
+    "description": "Robots.txt generator service. Fork for older laravel",
     "type": "library",
     "keywords": [
         "mad-web",
