@@ -1,5 +1,7 @@
 # Very short description of the package
 
+A fork for a legacy project that runs on Laravel 5.4 and for which this component was not compatible. Changes are minimal to make it compatible. Won't put a Pull request as 5.4 is a legacy version and you should just upgrade to an LTS or newer.
+
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
@@ -23,6 +25,13 @@ _*For Laravel <= 5.4*_ - Now add the service provider in config/app.php file:
 'providers' => [
     // ...
     MadWeb\Robots\RobotsServiceProvider::class,
+];
+```
+
+```
+'aliases' => [
+    // ...
+    'Robots' => MadWeb\Robots\RobotsFacade::class,
 ];
 ```
 
