@@ -140,7 +140,7 @@ class Robots
     /**
      * Set callback with should index condition.
      */
-    public function setShouldIndexCallback(callable $callback)
+    public static function setShouldIndexCallback(callable $callback)
     {
         self::$shouldIndex = $callback;
     }
